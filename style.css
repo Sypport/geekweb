@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.cont {
+    background-image: url(img/background-top.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.menu {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.menu:hover {
+    color: rgb(199, 178, 153);
+}
+.nav-icon {
+    margin: 11px;
+}
+.left-icon {
+    margin-left: 40px;
+}
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 280px;
+    width: 1500px;
+}
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.title {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.top-small {
+    color: white;
+}
+.top-big {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.top-text {
+    color: white;
+    text-align: center;
+}
+.text {
+
+}
+.button-started {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(153, 134, 117);
+    padding: 20px 40px;
+    border-radius: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(115, 99, 87);
+    margin-top: 50px;
+}
+.button-started:hover {
+    background-color: rgb(115, 99, 87);
+}
+.arrow {
+    background-color: inherit;
+    border: none;
+}
+.arrow:hover {
+    filter: brightness(0.1);
+}
+.arrow:focus {
+    outline: none;
+}    
+.button-slide {
+    padding-top: 220px;
+    padding-bottom: 20px;
+}
+.slide {
+    padding: 4px;
+    background-color: inherit;
+    border: none;
+}
+.slide:hover img {
+    opacity: 0;
+}
+.slide:hover {
+    background-image: url(img/slade-page-active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(10);
+}
+.slide:focus img {
+    opacity: 0;
+}
+.slide:focus {
+    outline: none;
+    background-image: url(img/slade-page-active.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(0.8);
+}
